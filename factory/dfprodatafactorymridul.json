@@ -1,0 +1,9 @@
+{
+	"name": "dfprodatafactorymridul",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c82eebae-f545-4826-a86f-a80c79c2f708",
+		"tenantId": "91b237b8-b2a0-469d-a9b4-4250b92879b3"
+	}
+}

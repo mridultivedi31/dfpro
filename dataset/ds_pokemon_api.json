@@ -1,0 +1,21 @@
+{
+	"name": "ds_pokemon_api",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dfprostorage_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "pokemon.json",
+				"folderPath": "API",
+				"fileSystem": "sink"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

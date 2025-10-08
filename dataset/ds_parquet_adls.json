@@ -1,0 +1,21 @@
+{
+	"name": "ds_parquet_adls",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dfprostorage_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "orders",
+				"fileSystem": "sink"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
