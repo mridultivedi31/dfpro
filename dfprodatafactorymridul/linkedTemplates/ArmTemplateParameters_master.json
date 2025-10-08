@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfprodatafactorymridul"
+		},
+		"ls_dfpro_sqldb_password": {
+			"value": ""
+		},
+		"ls_dfprostorage_adls_accountKey": {
+			"value": ""
+		},
+		"ls_dfpro_sqldb_properties_typeProperties_server": {
+			"value": "mridulsserver.database.windows.net"
+		},
+		"ls_dfpro_sqldb_properties_typeProperties_database": {
+			"value": "mridulsdatabase"
+		},
+		"ls_dfpro_sqldb_properties_typeProperties_userName": {
+			"value": "adminadmin"
+		},
+		"ls_dfprostorage_adls_properties_typeProperties_url": {
+			"value": "https://dfprostorageadls.dfs.core.windows.net/"
+		},
+		"ls_restapi_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
